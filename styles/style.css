@@ -58,6 +58,7 @@
   font-size: 18px;
   color: #ffffff;
 }
+
 .btn-primary:hover {
   background-color: transparent;
   border: 2px solid #f15b22;
@@ -81,6 +82,7 @@
   text-align: left;
   width: 410px;
 }
+
 .section-title {
   font-weight: 700;
   font-size: 40px;
@@ -117,6 +119,7 @@
   overflow: hidden;
   padding-bottom: 130px;
 }
+
 #plan-section .section-title {
   text-align: center;
   padding-bottom: 50px;
@@ -133,6 +136,7 @@
   padding: 15px 15px;
   border-radius: 10px;
 }
+
 .plan-content h4 {
   font-weight: 700;
   font-size: 30px;
@@ -140,6 +144,7 @@
   padding-top: 15px;
   color: #151414;
 }
+
 .plan-content p {
   font-weight: 500;
   font-size: 25px;
@@ -151,6 +156,52 @@
 .plan-content:hover {
   box-shadow: 5px 5px 10px #5f5f5f;
   transition: 0.4s;
+}
+
+/* my passion and focus css*/
+
+#my-passion {
+  overflow: hidden;
+  padding-bottom: 130px;
+}
+
+#my-passion .section-title {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.my-passion-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.passion-info {
+  position: relative;
+}
+
+.passion-info img {
+  height: 330px;
+  width: 360px;
+  border-radius: 10px;
+}
+
+.passion-info h3 {
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #151414;
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  padding: 35px 0;
+}
+
+.passion-info:hover h3 {
+  display: block;
+  opacity: 0.7;
 }
 
 /* Positive mindeset section */
@@ -189,6 +240,8 @@
 .positive-mindset-desc .btn-primary:hover {
   border: 0;
 }
+
+/* Footer section css */
 
 #footer-section {
   overflow: hidden;
@@ -259,6 +312,7 @@
   color: #f15b22;
   font-size: 20px;
 }
+
 .form-area .btn-primary:hover {
   background-color: #f15b22;
   color: #fff;
