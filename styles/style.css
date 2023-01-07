@@ -81,7 +81,7 @@
   text-align: left;
   width: 410px;
 }
-.banner-content h3 {
+.section-title {
   font-weight: 700;
   font-size: 40px;
   line-height: 47px;
@@ -109,4 +109,46 @@
   color: #16d887;
   font-size: 18px;
   padding-right: 10px;
+}
+
+/* My plan css */
+
+#plan-section {
+  overflow: hidden;
+  padding-bottom: 130px;
+}
+#plan-section .section-title {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.plan-element {
+  display: flex;
+  justify-content: space-around;
+}
+
+.plan-content {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 15px 15px;
+  border-radius: 10px;
+}
+.plan-content h4 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  padding-top: 15px;
+  color: #151414;
+}
+.plan-content p {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  padding-top: 15px;
+  color: #737272;
+}
+
+.plan-content:hover {
+  box-shadow: 5px 5px 10px #5f5f5f;
+  transition: 0.4s;
 }
