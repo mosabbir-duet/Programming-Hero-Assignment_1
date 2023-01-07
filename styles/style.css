@@ -1,3 +1,5 @@
+/* Common CSS */
+
 * {
   margin: 0;
   padding: 0;
@@ -55,4 +57,51 @@
   background-color: transparent;
   border: 2px solid #f15b22;
   color: #f15b22;
+}
+
+/* Banner-section css */
+
+#banner-section {
+  overflow: hidden;
+}
+
+.banner-container {
+  display: flex;
+  gap: 100px;
+  padding: 130px 250px;
+}
+
+.banner-content {
+  padding-top: 230px;
+  text-align: left;
+  width: 410px;
+}
+.banner-content h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  padding-bottom: 25px;
+}
+
+.banner-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  padding-bottom: 16px;
+}
+
+.banner-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  padding-bottom: 15px;
+}
+
+.fa-check {
+  color: #16d887;
+  font-size: 18px;
+  padding-right: 10px;
 }
