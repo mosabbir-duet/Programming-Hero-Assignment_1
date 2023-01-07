@@ -7,6 +7,11 @@
   box-sizing: border-box;
 }
 
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
 /* header section css */
 
 #header-section {
@@ -68,7 +73,7 @@
 .banner-container {
   display: flex;
   gap: 100px;
-  padding: 130px 250px;
+  padding: 130px 0;
 }
 
 .banner-content {
