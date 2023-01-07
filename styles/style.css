@@ -189,3 +189,77 @@
 .positive-mindset-desc .btn-primary:hover {
   border: 0;
 }
+
+#footer-section {
+  overflow: hidden;
+  background-color: #151414;
+}
+
+.footer-container {
+  display: flex;
+  color: #fff;
+  gap: 330px;
+  padding: 130px 0;
+}
+
+.future-content {
+  width: 485px;
+}
+
+.future-content .section-title {
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.future-content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding-bottom: 20px;
+}
+
+.social-link img {
+  padding-right: 20px;
+}
+
+.social-link a:last-child img {
+  padding-right: 0;
+}
+
+.social-link a {
+  text-decoration: none;
+}
+
+/* Form area css */
+.form-area {
+  width: 325px;
+}
+
+.form-area h5 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  padding-bottom: 30px;
+}
+
+.form-area .type-box {
+  background-color: transparent;
+  height: 64px;
+  width: 100%;
+  border: 1px solid #737272;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.form-area .btn-primary {
+  background-color: #fff;
+  color: #f15b22;
+  font-size: 20px;
+}
+.form-area .btn-primary:hover {
+  background-color: #f15b22;
+  color: #fff;
+}
